@@ -31,13 +31,13 @@ a {
   right: 15%;
   padding: 1rem;
   font-weight: bold;
-  color: #557A95;
+  color: #2FA27D;
   background-color: rgba(255, 255, 255, 0.733);
   font-size: 24px;
   align-self: center;
 }
 .shadow {
-  box-shadow: 4px 4px 8px #557A95;
+  box-shadow: 4px 4px 8px #2FA27D;
   background-color: white !important;
   padding: 0px 8px;
   border-radius: 8px;

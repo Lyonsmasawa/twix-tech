@@ -31,10 +31,12 @@
     position: absolute;
     width: 450px;
     height: 450px;
-    background: url('./fav.jpg') center center;
+    background: url('./fe.jpg') left center;
     -ms-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .pic:hover,
@@ -67,10 +69,11 @@
     position: absolute;
     width: 200px;
     height: 200px;
-    background: url('http://creek.themebucket.net/wp-content/uploads/2015/09/8.jpg') center center;
+    background: url('./farm.jpg') center center;
     -ms-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
+    background-size: contain;
 }
 
 .box2 {
@@ -94,22 +97,25 @@
     position: absolute;
     width: 300px;
     height: 300px;
-    background: url('http://i-cdn.phonearena.com/images/articles/220901-image/Here-is-how-the-start-screen-of-Google-Maps-looks-like.jpg') center center;
+    background: url('./tech.jpg') center center;
     -ms-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
+    background-size: contain;
+    opacity: .5;
 }
 
 .social1 {
     box-shadow: 6px 6px 7px #2fa27ecb;
     width: 80px;
     height: 80px;
-    background-color: #3b5998;
+    background-color: white;
     margin-top: -57px;
     margin-left: 305px;
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
+    background-size: contain;
 }
 
 .social1>i {
@@ -126,7 +132,7 @@
     box-shadow: 6px 6px 7px #2fa27ecb;
     width: 80px;
     height: 80px;
-    background-color: #C73B6F;
+    background-color: #2FA27D;
     margin-top: -142px;
     margin-left: 370px;
     -ms-transform: rotate(45deg);
@@ -148,7 +154,7 @@
     box-shadow: 6px 6px 7px #2fa27ecb;
     width: 80px;
     height: 80px;
-    background-color: #000000;
+    background-color: white;
     margin-top: -143px;
     margin-left: 435px;
     -ms-transform: rotate(45deg);
@@ -173,8 +179,18 @@
     text-align: left;
 }
 
-.content h2{
+.content h2 {
     margin-top: 1rem;
     color: #2FA27D !important;
     font-weight: 600;
+    text-align: center;
+}
+
+.why li:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: FontAwesome;
+    content: "\f110" !important;
+    color: #2FA27D;
 }
