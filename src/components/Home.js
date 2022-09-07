@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Clients from './Clients'
 import Footer from './Footer'
 import Land from './Land'
 import Landing from './Landing'
@@ -34,6 +35,7 @@ const Home = (props) => {
     <Container>
         <Landing />
         <Land />
+        <Clients />
         <Partners />
         <hr style={{color: "#2FA27D", height: "1rem", opacity: "0.05"}}/>
         <Reviews />

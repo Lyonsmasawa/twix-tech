@@ -1,6 +1,7 @@
 import React from 'react'
 import './Land.css'
 import styled from 'styled-components'
+import logo from './logo3.png'
 
 const Land = () => {
         const Info = styled.div`
@@ -45,7 +46,7 @@ const Land = () => {
   return (
      <>
         <h2 style={{marginTop: "3rem", color: "#2FA27D", textAlign: "center", fontWeight: "600"}}>ABOUT US</h2>
-        <hr style={{color: "#2FA27D", height: ".51rem", opacity: "0.05"}}/>
+        <hr style={{color: "#2FA27D", height: ".51rem", opacity: "0.1"}}/>
         <Information>
             <div className="row fully">
             <div className="cont">
@@ -104,15 +105,17 @@ const Land = () => {
                                     <li><strong>Excellence: </strong>  Excellence to us is not an act but a habit. We go the extra mile to deliver and exceed client’s
                             expectations. </li>
                                 </ul>
+                                <img src={logo} alt="Twix Technologies" style={{ opacity: ".7", width: "30%"}}/>
                             </div>
                         </Information>
+                        
                     </Info>
             </div>
         </div>   
 
 
         </Information>
-        <hr style={{color: "#2FA27D", height: ".51rem", opacity: "0.05", marginTop: "5rem"}}/>
+        <hr style={{color: "#2FA27D", height: ".51rem", opacity: "0.07"}}/>
      </>
   )
 }
