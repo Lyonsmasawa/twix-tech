@@ -26,7 +26,7 @@ const Landing = () => {
                </p>
             </div>
             <div className="sideDo">
-                <img src={logo1} alt="Twix Technologies" style={{boxShadow: "0px 0px 5px white", opacity: ".4"}}/>
+                <img src={logo1} alt="Twix Technologies" style={{boxShadow: "0px 0px 5px white", opacity: ".6"}}/>
             </div>
         </div>
     </div>

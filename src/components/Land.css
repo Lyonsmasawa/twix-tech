@@ -173,6 +173,8 @@
     text-align: left;
 }
 
-.contentHead {
-
+.content h2{
+    margin-top: 1rem;
+    color: #2FA27D !important;
+    font-weight: 600;
 }
