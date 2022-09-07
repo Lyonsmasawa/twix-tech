@@ -179,6 +179,19 @@
     text-align: left;
 }
 
+.clients {
+    background-color: #1d8d6a18;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem 0px .4rem;
+}
+
+/* .clients_bg{
+   background-color: white;
+   border: 12px solid #2fa27e94;
+   border-left: 0px;
+   border-right: 0px;
+} */
 .content h2 {
     margin-top: 1rem;
     color: #2FA27D !important;

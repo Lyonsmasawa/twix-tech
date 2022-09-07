@@ -6,6 +6,7 @@ import Land from './Land'
 import Landing from './Landing'
 import Partners from './Partners'
 import Reviews from './Reviews'
+import Solutions from './Solutions'
 
 const Container = styled.main`
     position: relative;
@@ -35,9 +36,13 @@ const Home = (props) => {
     <Container>
         <Landing />
         <Land />
+        <hr style={{color: "#2FA27D", height: "1rem", opacity: "0.1"}}/>
         <Clients />
+        <hr style={{color: "#2FA27D", height: "1rem", opacity: "0.1"}}/>
+        <Solutions/>
+        <hr style={{color: "#2FA27D", height: "1rem", opacity: "0.1"}}/>
         <Partners />
-        <hr style={{color: "#2FA27D", height: "1rem", opacity: "0.05"}}/>
+        <hr style={{color: "#2FA27D", height: "1rem", opacity: "0.1"}}/>
         <Reviews />
         <hr style={{color: "#2FA27D"}}/>
         <Footer />

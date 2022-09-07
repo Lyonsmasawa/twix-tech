@@ -4,8 +4,9 @@ import './Partners.css'
 const Partners = () => {
 
     return (
+        <div className="partner">
             <div className="container">
-                <h1 style={{color: "#2FA27D", fontWeight:"bold", textDecoration: "underline", textDecorationThickness: "1px"}}><strong>Our Partners</strong></h1>
+                <h1 style={{padding: "2rem", color: "#2FA27D", textAlign: "center", fontWeight: "700"}}>Our Partners</h1>
                 <strong>
                     <div className="row" style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
                         <div className="col-sm-6 col-md-4 col-lg-4">
@@ -56,6 +57,7 @@ const Partners = () => {
                     </div>
                 </strong>
             </div>
+        </div>
     )
 }
 

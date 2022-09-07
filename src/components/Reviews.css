@@ -1,13 +1,13 @@
 #reviews {
     width: 100%;    
-    background-color: white;
-    color: white;
+    background-color: #ffffff4f;
+    color: black;
     padding: 1rem;
     transition: 204ms infinite ease;
 }
 
 #reviews h5 {
-    color: black;
+    color: #2FA27D;
 }
 
 #reviews h2{
@@ -27,7 +27,7 @@
     overflow: hidden;
     border-radius: 50%;
     margin: 0 auto 1rem;
-    border: 0.15rem solid white;
+    border: 0.15rem solid #2FA27D;
 }
 
 .client__avatar img{
@@ -36,7 +36,7 @@
     object-fit: cover;
 }
 .reviews {
-    background: #2FA27D;
+    background: white;
     text-align: center;
     padding: 2rem;
     border-radius: 2rem;
@@ -44,7 +44,7 @@
 }
 
 .client__name {
-    color: white !important;
+    color: #2FA27D !important;
 }
 
 .client__review {
