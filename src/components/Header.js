@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom"
 import styled from "styled-components"
-import { GroupAdd, WorkOutline, HomeWorkOutlined } from '@material-ui/icons/';
+import { WorkOutline, HomeWorkOutlined } from '@material-ui/icons/';
 import StorageIcon from '@material-ui/icons/Storage';
 import GamepadIcon from '@material-ui/icons/Gamepad';
 import PeopleOutlineIcon from '@material-ui/icons/PeopleOutline';

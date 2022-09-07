@@ -1,17 +1,11 @@
 import React from 'react'
 import './Partners.css'
-import styled from "styled-components"
 
 const Partners = () => {
 
-    const Container = styled.div`
-        
-    `
-
     return (
-        <section className="section section-default mt-none mb-none">
             <div className="container">
-                <h2 className="mb-sm">Our <strong>Partners</strong></h2>
+                <h1 style={{color: "#2FA27D", fontWeight:"bold", textDecoration: "underline", textDecorationThickness: "1px"}}><strong>Our Partners</strong></h1>
                 <strong>
                     <div className="row" style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
                         <div className="col-sm-6 col-md-4 col-lg-4">
@@ -62,7 +56,6 @@ const Partners = () => {
                     </div>
                 </strong>
             </div>
-        </section>
     )
 }
 

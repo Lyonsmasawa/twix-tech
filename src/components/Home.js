@@ -1,7 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 import Footer from './Footer'
+import Land from './Land'
+import Landing from './Landing'
 import Partners from './Partners'
+import Reviews from './Reviews'
 
 const Container = styled.main`
     position: relative;
@@ -29,7 +32,12 @@ const Home = (props) => {
 
   return (
     <Container>
+        <Landing />
+        <Land />
         <Partners />
+        <hr style={{color: "#2FA27D", height: "1rem", opacity: "0.05"}}/>
+        <Reviews />
+        <hr style={{color: "#2FA27D"}}/>
         <Footer />
     </Container>
   )

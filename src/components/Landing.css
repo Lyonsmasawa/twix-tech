@@ -1,0 +1,36 @@
+.image {
+    background-image: url("qwa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    text-align: center;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background-color: #036e4c9f;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 2rem;
+    margin-top: 70ox;
+}
+
+.sideDo {
+    flex: 1;
+}
+
+.whatWeDo {
+    flex: 1;
+    text-align: left;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
