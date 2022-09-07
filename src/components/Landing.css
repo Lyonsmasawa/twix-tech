@@ -6,7 +6,6 @@
     text-align: center;
     height: 80vh;
     width: 100%;
-    align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +20,6 @@
     align-items: center;
     margin: 0%;
     padding: 2rem;
-    margin-top: 70ox;
 }
 
 .sideDo {

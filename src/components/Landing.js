@@ -1,5 +1,7 @@
 import React from 'react'
 import './Landing.css'
+import logo from './logo1.png'
+import logo1 from './logo3.png'
 
 const Landing = () => {
   return (
@@ -7,7 +9,7 @@ const Landing = () => {
         <div className="overlay">
 
             <div className="whatWeDo">
-                
+            <img src={logo} alt="Twix Technologies" />
             <h1>Twixt Technologies Limited</h1>
                <p style={{ padding: "10px"}}>
                     Twixt was founded as a web development startup during its incubation stages in 2009 and later incorporated as a
@@ -23,7 +25,9 @@ const Landing = () => {
                     Businesses.
                </p>
             </div>
-            <div className="sideDo"></div>
+            <div className="sideDo">
+                <img src={logo1} alt="Twix Technologies" style={{boxShadow: "0px 0px 5px white", opacity: ".4"}}/>
+            </div>
         </div>
     </div>
   )
