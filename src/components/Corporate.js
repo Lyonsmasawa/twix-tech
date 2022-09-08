@@ -16,7 +16,7 @@ const Corporate = () => {
                                       <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br />
                                           necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
                                     </div>
-                                  <div className="col-md-5 col-12 order-md-2 order-1"><img src="./images/clients/data.jpg" className="mx-auto" alt="slide" /></div>
+                                  <div className="col-md-5 col-12 order-md-2 order-1"><img src="./images/clients/tre.png" className="mt-5" alt="slide" /></div>
                               </div>
                           </div>
                       </div>
