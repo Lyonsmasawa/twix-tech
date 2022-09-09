@@ -123,21 +123,6 @@ const Solutions = () => {
                     <div class="containers">
                       <h2 class="section-title mb-2 h1" style={{ fontWeight: "bold" }}> Corporate Solutions We Offer</h2>
                       <p class="text-center text-muted h3">Data Analytics-Visualization & Business Intelligence Solutions.</p>
-
-                      <h2>Business Intelligence Solutions</h2>
-                      <p style={{ color: "#2FA27D" }}>Through our partnership with “The DecisionSmiths”, Twixt
-                        is Crafting decision-making Strategies based on sound
-                        analytics and individual decision-maker insights.</p>
-                      <img src="./images/dec.png" className="mx-auto" alt="slide" style={{ width: "45%" }} />
-                      <h5>Notable Features Include:</h5>
-                      <ul>
-                        <li> Data analytics and visualization </li>
-                        <li> Automated reporting</li>
-                        <li> Machine learning models</li>
-                        <li> Individual decision-maker insights and profiling </li>
-                        <li> Business strategizing</li>
-                      </ul>
-
                       </div>
                     <CorporateSolutions />
                   </section>
