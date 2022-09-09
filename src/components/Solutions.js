@@ -75,8 +75,8 @@ const Solutions = () => {
                 <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                   <section id="what-we-do">
                     <div class="container-fluid">
-                      <h2 class="section-title mb-2 h1">What we Offer</h2>
-                      <p class="text-center text-muted h5">We offer end user (Mobile, Laptop & Applications) and server side hardware based
+                      <h2 class="section-title mb-2 h1" style={{fontWeight: "bold"}}> Security Solutions We Offer</h2>
+                      <p class="text-center text-muted h6">We offer end user (Mobile, Laptop & Applications) and server side hardware based
                         authentication solution that eliminates account takeovers through the use of Public
                         Key Cryptography.</p>
                       <div class="row mt-5">

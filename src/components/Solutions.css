@@ -25,7 +25,10 @@ nav>div a.nav-item.nav-link.active {
     background: #2FA27D;
     border-radius: 0;
 }
-
+nav>div a.nav-item.nav-link.active{
+    background-color: #fff;
+    color: #2FA27D;
+}
 nav>div a.nav-item.nav-link.active:after {
     content: "";
     position: relative;
@@ -51,7 +54,7 @@ nav>div a.nav-item.nav-link:focus {
 }
 
 section{
-	padding: 60px 0;
+	padding: 10px 0;
 }
 section .section-title{
 	text-align:center;
