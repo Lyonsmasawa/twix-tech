@@ -3,6 +3,8 @@ import './Land.css'
 import styled from 'styled-components'
 import logo from './logo3.png'
 
+import { keyframes } from "styled-components";
+import GamepadIcon from '@material-ui/icons/Gamepad';
 const Land = () => {
         const Info = styled.div`
             display: flex;
@@ -12,7 +14,27 @@ const Land = () => {
             padding-left: 3rem;
             margin-bottom: 1rem;
         `
-    
+        // Create the keyframes
+        const rotate = keyframes `
+        from {
+        transform: rotate(0deg);
+        }
+
+        to {
+        transform: rotate(360deg);
+        }
+        `;
+
+        // Here we create a component that will rotate everything we pass in over two seconds
+        const Rotate = styled.div`
+        display: inline-block;
+        animation: ${rotate} 3s linear infinite;
+        padding: 0 1.4rem;
+        font-weight: bold;
+        color: #2EA27E;
+        font-size: 2rem;
+        `;
+
         const Information = styled.div`
             margin-top: 2rem;
             gap: 1rem;
@@ -45,7 +67,7 @@ const Land = () => {
 
   return (
      <>
-        <h2 style={{marginTop: "3rem", color: "#2FA27D", textAlign: "center", fontWeight: "600"}}>ABOUT US</h2>
+        <h2 style={{marginTop: "3rem", color: "#2FA27D", textAlign: "center", fontWeight: "600"}}><Rotate><GamepadIcon /></Rotate>ABOUT US<Rotate><GamepadIcon /></Rotate></h2>
         <hr style={{color: "#2FA27D", height: ".51rem", opacity: "0.1"}}/>
         <Information>
             <div className="row fully">

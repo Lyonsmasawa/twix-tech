@@ -7,6 +7,8 @@ import Sol from './Sol';
 import Security from './Security';
 import { DashboardTwoTone, DateRange, SecuritySharp } from '@material-ui/icons';
 import CorporateSolutions from './CorporateSolutions';
+import GamepadIcon from '@material-ui/icons/Gamepad';
+import { keyframes } from "styled-components";
 
 const Solutions = () => {
   const Solution = styled.div`
@@ -17,9 +19,30 @@ const Solutions = () => {
         color: #2FA27D;
         text-align: left;
     `
+    // Create the keyframes
+    const rotate = keyframes `
+    from {
+    transform: rotate(0deg);
+    }
+
+    to {
+    transform: rotate(360deg);
+    }
+    `;
+
+    // Here we create a component that will rotate everything we pass in over two seconds
+    const Rotate = styled.div`
+    display: inline-block;
+    animation: ${rotate} 3s linear infinite;
+    padding: 0 1.4rem;
+    font-weight: bold;
+    color: #2EA27E;
+    font-size: 2rem;
+    `;
 
   return (
     <>
+      <h2 style={{marginTop: "1rem",marginBottom: "1rem", color: "#2FA27D", textAlign: "center", fontWeight: "600"}}><Rotate><GamepadIcon /></Rotate>SOLUTIONS<Rotate><GamepadIcon /></Rotate></h2>
       <Solution>
         <div className="containers">
           <div className="row">

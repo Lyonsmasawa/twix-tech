@@ -12,9 +12,9 @@ const Corporate = () => {
                               <div className="row align-items-center">
                                   <div className="col-md-7 col-12 order-md-1 order-2">
                                     <h1>Aryaka Smart Services</h1>
-                                      <h3>Consume Your Network As a Service</h3>
+                                    <h3>Consume Your Network As a Service</h3>
                                     </div>
-                                  <div className="col-md-5 col-12 order-md-2 order-1"><img src="./images/clients/tre.png" className="mt-5" alt="slide" /></div>
+                                  <div className="col-md-5 col-12 order-md-2 order-1"><img src="./images/ar.png" className="mt-5" alt="slide" /></div>
                               </div>
                           </div>
                       </div>

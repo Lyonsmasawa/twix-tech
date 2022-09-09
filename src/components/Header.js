@@ -2,10 +2,8 @@ import { Link, useNavigate } from "react-router-dom"
 import styled from "styled-components"
 import { WorkOutline, HomeWorkOutlined } from '@material-ui/icons/';
 import StorageIcon from '@material-ui/icons/Storage';
-import GamepadIcon from '@material-ui/icons/Gamepad';
 import PeopleOutlineIcon from '@material-ui/icons/PeopleOutline';
 import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
-import { keyframes } from "styled-components";
 import EventSeatIcon from '@material-ui/icons/EventSeat';
 import logo from './logo3.png'
 
@@ -108,26 +106,6 @@ const  MenuIcon ={
 }
 
 
-// Create the keyframes
-const rotate = keyframes `
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-`;
-
-// Here we create a component that will rotate everything we pass in over two seconds
-const Rotate = styled.div`
-  display: inline-block;
-  animation: ${rotate} 3s linear infinite;
-  padding: 0 1.4rem;
-  font-weight: bold;
-  color: #2EA27E;
-  font-size: 2rem;
-`;
 
 
 const Header = () => {
@@ -137,14 +115,12 @@ const Header = () => {
             <Link to="/"><img src={logo} alt="Twix Technologies" /></Link>
         </Logo>
         <NavMenu>
-            <Rotate><GamepadIcon /></Rotate>
             <Link to="/" style={MenuLinks}><HomeWorkOutlined style={MenuIcon} /><Span>Home</Span></Link>
-            <Link to="/caregivers" style={MenuLinks}><SupervisedUserCircleIcon style={MenuIcon} /><Span>About Us</Span></Link>
             <Link to="/recruiters" style={MenuLinks}><EventSeatIcon style={MenuIcon} /><Span>Our Clients</Span></Link>
             <Link to="/careers" style={MenuLinks}><WorkOutline style={MenuIcon} /><Span>Our Solutions</Span></Link>
             <Link to="/careers" style={MenuLinks}><StorageIcon style={MenuIcon} /><Span>Managed Services</Span></Link>
+            <Link to="/caregivers" style={MenuLinks}><SupervisedUserCircleIcon style={MenuIcon} /><Span>About Us</Span></Link>
             <Link to="/careers" style={MenuLinks}><PeopleOutlineIcon style={MenuIcon} /><Span>Partnerships</Span></Link>
-            <Rotate><GamepadIcon /></Rotate>
         </NavMenu>
     </Nav>
    )

@@ -3,6 +3,9 @@ import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import { keyframes } from "styled-components";
+import GamepadIcon from '@material-ui/icons/Gamepad';
+
 const Client = () => {
     let settings = {
         dots: false,
@@ -12,6 +15,28 @@ const Client = () => {
         slidesToScroll: 1,
         autoplay: true,
     };
+
+// Create the keyframes
+const rotate = keyframes `
+from {
+transform: rotate(0deg);
+}
+
+to {
+transform: rotate(360deg);
+}
+`;
+
+// Here we create a component that will rotate everything we pass in over two seconds
+const Rotate = styled.div`
+display: inline-block;
+animation: ${rotate} 3s linear infinite;
+padding: 0 1.4rem;
+font-weight: bold;
+color: #2EA27E;
+font-size: 2rem;
+`;
+
 
 const Carousel = styled(Slider)`
     // margin-top: 5px;
@@ -92,7 +117,7 @@ const Wrap = styled.div`
   return (
     <div className="clients">
         <div className="clients_bg">
-        <h1 style={{marginTop: "2rem", color: "#2FA27D", textAlign: "center", fontWeight: "700"}}>Our Clients</h1>
+        <h1 style={{marginTop: "2rem", color: "#2FA27D", textAlign: "center", fontWeight: "700"}}><Rotate><GamepadIcon /></Rotate>Our Clients<Rotate><GamepadIcon /></Rotate></h1>
         <br />
         <Carousel {...settings}>
             <Wrap>
