@@ -3,7 +3,7 @@ import './Corporate.css'
 
 const Corporate = () => {
   return (
-      <div>
+      <div id="corporate">
           <div id="myCarousel" className="carousel slide carousel-fade" data-ride="carousel">
               <div className="carousel-inner">
                   <div className="carousel-item active">
@@ -11,10 +11,8 @@ const Corporate = () => {
                           <div className="container">
                               <div className="row align-items-center">
                                   <div className="col-md-7 col-12 order-md-1 order-2">
-                                      <h4>Data Analytics<br />
-                                          and Visualization</h4>
-                                      <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br />
-                                          necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
+                                    <h1>Aryaka Smart Services</h1>
+                                      <h3>Consume Your Network As a Service</h3>
                                     </div>
                                   <div className="col-md-5 col-12 order-md-2 order-1"><img src="./images/clients/tre.png" className="mt-5" alt="slide" /></div>
                               </div>
@@ -31,7 +29,7 @@ const Corporate = () => {
                                       <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br />
                                           necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
                                     </div>
-                                  <div className="col-md-5 col-12 order-md-2 order-1"><img src="https://i.imgur.com/duWgXRs.png" className="mx-auto" alt="slide" /></div>
+                                  <div className="col-md-5 col-12 order-md-2 order-1"><img src="./images/clients/tre.png" className="mx-auto" alt="slide" /></div>
                               </div>
                           </div>
                       </div>

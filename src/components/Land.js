@@ -67,12 +67,7 @@ const Land = () => {
 
             <div className="content">
                 <br />
-                            <div className="why">
-                                    <h4 style={{color: "#2FA27D", fontWeight: "bold", fontSize:"20px"}}>Philosophy</h4>
-                                    <ul>
-                                        <li>Pushing the boundaries of Novelty.</li>
-                                    </ul>
-                            </div>
+                            
                     <Information>
                             <div className="why">
                                     <h4 style={{color: "#2FA27D", fontWeight: "bold", fontSize:"20px"}}>Mission</h4>
@@ -91,10 +86,17 @@ const Land = () => {
                                     </ul>
                             </div>
                     </Information>
+                    <br />
+                    <div className="why">
+                                    <h4 style={{color: "#2FA27D", fontWeight: "bold", fontSize:"20px"}}>Philosophy</h4>
+                                    <ul>
+                                        <li>Pushing the boundaries of Novelty.</li>
+                                    </ul>
+                            </div>
                     <Info>
                         <Information>
                             <div className="why">
-                                <h4 style={{color: "#2FA27D", fontWeight: "bold", fontSize:"30px"}}>Core Values</h4>
+                                <h4 style={{color: "#2FA27D", fontWeight: "bold", fontSize:"20px"}}>Core Values</h4>
                                 <ul>
                                     <li><strong>Creativity: </strong> We solve problems and challenges by use of broad-sight thinking, foresight in innovating solutions
                                     and leveraging on acquired skills.</li>

@@ -1,0 +1,129 @@
+.right_conatct_social_icon{
+     background: #2fa27d;
+}
+
+.backside {
+  background: url('./secure.png');
+  flex: 1;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+}
+
+.contact__us{
+  display: flex;
+  background: url('./bg3.jpg');
+  justify-content: space-evenly;
+}
+.contact_us {
+  flex: 2;
+}
+
+.contact_inner{
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0px 4px 15px #2fa27d;
+    border-radius: 25px;
+}
+.contact_field{
+    padding: 60px 340px 90px 100px;
+}
+.right_conatct_social_icon{
+    height: 100%;
+}
+
+.contact_field h3{
+   color: #000;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 10px
+}
+.contact_field p{
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+.contact_field .form-control{
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+.contact_field .form-control:focus{
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid #2fa27d;
+}
+.contact_field .form-control::placeholder{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.contact_info_sec {
+    position: absolute;
+    background-color: #2fa27d;
+    right: 10px;
+    font-size: 1.3rem !important;
+    top: 18%;
+    height: 340px;
+    width: 290px;
+    padding: 40px;
+    border-radius: 25px 0 0 25px;
+}
+.contact_info_sec h4{
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+
+.info_single{
+    margin: 30px 0px;
+}
+.info_single span{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-left: 1rem;
+}
+
+button.contact_form_submit {
+    background: #2fa27d;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.socil_item_inner li{
+    list-style: none;
+}
+.socil_item_inner li a{
+    color: #fff;
+    margin: 0px 15px;
+    font-size: 14px;
+}
+.socil_item_inner{
+    padding-bottom: 10px;
+}
+
+.map_sec{
+    padding: 50px 0px;
+}
+.map_inner h4 {
+    color: #2fa27d;
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+.map_inner p{
+    font-size: 13px;
+}
+.map_bind{
+    /* border-radius: 30px; */
+    overflow: hidden;
+}

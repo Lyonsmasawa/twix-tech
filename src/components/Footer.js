@@ -1,10 +1,14 @@
 import React from 'react'
 import './footer.css'
+import Map from './Map'
 
 const Footer = () => {
     return (
-        <footer className="site-footer">
-            <div className="container" style={{ width: "100%" }}>
+    <>
+        <Map />
+        <footer className="site-footer" style={{display:"flex", paddingTop:"0px", flexDirection:"column", alignItems:"center", justifyContent: "center",  }}>
+            
+            <div className="containers" style={{width: "80%"}}>
                 <div className="row">
                     <div className="col-sm-12 col-md-5">
                         <h6 className=''>About</h6>
@@ -56,6 +60,7 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
+    </>
     )
 }
 
