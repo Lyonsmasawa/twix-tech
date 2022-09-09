@@ -12,7 +12,7 @@ import logo from './logo3.png'
 const Nav = styled.nav`
     position: fixed;
     background-color: white;
-    color: #2EA27E;
+    color: #2EA27D;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -23,7 +23,7 @@ const Nav = styled.nav`
     right: 0;
     padding: 8px 36px;
     letter-spacing: 16px;
-    z-index: 1001;
+    z-index: 1009;
     box-shadow: 0px 2px 8px #2EA27E;
 `
 
@@ -34,7 +34,7 @@ const Logo = styled.a`
     max-height: 60px;
     font-size: 0;
     display: inline-block;
-    color: #2EA27E;
+    color: #2EA27D;
 
     img { 
         display: block;
@@ -101,10 +101,10 @@ const MenuLinks = {
 }
 
 const  MenuIcon ={
-    maxWidth: "30px",
-    maxHeight: "30px",
+    maxWidth: "25px",
+    maxHeight: "25PX",
     zIndex: "auto",
-    color: "#2EA27E",
+    color: "#2EA27D",
 }
 
 

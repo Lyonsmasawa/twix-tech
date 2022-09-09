@@ -5,7 +5,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Sol from './Sol';
 import Security from './Security';
-import { SecuritySharp } from '@material-ui/icons';
+import { DashboardTwoTone, DateRange, SecuritySharp } from '@material-ui/icons';
+import CorporateSolutions from './CorporateSolutions';
 
 const Solutions = () => {
   const Solution = styled.div`
@@ -41,7 +42,7 @@ const Solutions = () => {
                       <div class="row mt-5">
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
                           <div class="card  h-100">
-                            <div class="card-block block-1">
+                            <div class="card-block block-2">
                               <h3 class="card-title">Work & Office Tools:</h3>
                               <p class="card-text">Mobile Devices, Tablets, Laptops, Desktops, Professional Display Screens, Audio-Video
                                 Conferencing, Printers and Accessories (Flash Drives, Web Cams, Head Phones, Laptop Bags etc).</p>
@@ -60,7 +61,7 @@ const Solutions = () => {
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
                           <div class="card h-100">
-                            <div class="card-block block-3">
+                            <div class="card-block block-2">
                               <h3 class="card-title">Office Appliances: </h3>
                               <p class="card-text">TV, Sound Systems, Microwaves, Fridges and Water Dispensers.</p>
                               <a href="#" title="Read more" class="read-more" >See Illustrations Below<i class="fa fa-angle-double-right ml-2"></i></a>
@@ -75,7 +76,7 @@ const Solutions = () => {
                 <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                   <section id="what-we-do">
                     <div class="container-fluid">
-                      <h2 class="section-title mb-2 h1" style={{fontWeight: "bold"}}> Security Solutions We Offer</h2>
+                      <h2 class="section-title mb-2 h1" style={{ fontWeight: "bold" }}> Security Solutions We Offer</h2>
                       <p class="text-center text-muted h6">We offer end user (Mobile, Laptop & Applications) and server side hardware based
                         authentication solution that eliminates account takeovers through the use of Public
                         Key Cryptography.</p>
@@ -94,20 +95,20 @@ const Solutions = () => {
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
                           <div class="card h-100">
-                            <div class="card-block block-2">
+                            <div class="card-block block-1">
                               <h3 class="card-title">Mobile Device Management (MDM):</h3>
                               <p class="card-text">We offer a bespoke and Customizable Security Integrated MDM solution for managing your organization’s smart
-devices online and offline securely.</p>
+                                devices online and offline securely.</p>
                               <a href="#" title="Read more" class="read-more" >See Illustrations Below<i class="fa fa-angle-double-right ml-2"></i></a>
                             </div>
                           </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
                           <div class="card h-100">
-                            <div class="card-block " style={{display: "flex", alignItems: "center", padding:"0px"}}>
-                            <SecuritySharp /><span style={{fontWeight: "bold"}}>Safe</span>
-                            <img src="./images/secure.png" className="mx-auto" alt="slide" style={{width: "60%", height: "100%", padding: "4px",border: "5px solid #2fa27d"}}/> <span style={{fontWeight: "bold"}}>Secure</span>
-                            <SecuritySharp />
+                            <div class="card-block " style={{ display: "flex", alignItems: "center", padding: "0px" }}>
+                              <SecuritySharp /><span style={{ fontWeight: "bold" }}>Safe</span>
+                              <img src="./images/secure.png" className="mx-auto" alt="slide" style={{ width: "60%", height: "100%", padding: "4px", border: "5px solid #2fa27d" }} /> <span style={{ fontWeight: "bold" }}>Secure</span>
+                              <SecuritySharp />
                             </div>
                           </div>
                         </div>
@@ -116,8 +117,30 @@ devices online and offline securely.</p>
                     <Security />
                   </section>
                 </div>
-                <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                  Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+
+                <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" style={{width: "100vw"}}>
+                  <section id="what-we-do" >
+                    <div class="containers">
+                      <h2 class="section-title mb-2 h1" style={{ fontWeight: "bold" }}> Corporate Solutions We Offer</h2>
+                      <p class="text-center text-muted h3">Data Analytics-Visualization & Business Intelligence Solutions.</p>
+
+                      <h2>Business Intelligence Solutions</h2>
+                      <p style={{ color: "#2FA27D" }}>Through our partnership with “The DecisionSmiths”, Twixt
+                        is Crafting decision-making Strategies based on sound
+                        analytics and individual decision-maker insights.</p>
+                      <img src="./images/dec.png" className="mx-auto" alt="slide" style={{ width: "45%" }} />
+                      <h5>Notable Features Include:</h5>
+                      <ul>
+                        <li> Data analytics and visualization </li>
+                        <li> Automated reporting</li>
+                        <li> Machine learning models</li>
+                        <li> Individual decision-maker insights and profiling </li>
+                        <li> Business strategizing</li>
+                      </ul>
+
+                      </div>
+                    <CorporateSolutions />
+                  </section>
                 </div>
               </div>
 
