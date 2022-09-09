@@ -58,7 +58,7 @@ const Solutions = () => {
                 <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                   <section id="what-we-do">
                     <div class="container-fluid">
-                      <h2 class="section-title mb-2 h1">What we Offer</h2>
+                      <h2 class="section-title mb-2 h2" style={{ fontWeight: "bold" }}>Office Solutions we Offer</h2>
                       <p class="text-center text-muted h5">Coupled with our International ICT trade experience together with our strategic relationships with regional ICT
                         Distributors, Twixt is able to service both small and large volume of IT Hardware supplies needs at retail and
                         wholesale commercial models. We supply and install ICT the below categories;</p>
