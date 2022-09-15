@@ -13,6 +13,7 @@ nav>.nav.nav-tabs {
     background: #2FA27D;
     border-radius: 0;
     margin-bottom: 10px;
+    border: 2px solid #2FA27D;
 }
 
 nav>div a.nav-item.nav-link,
@@ -20,8 +21,8 @@ nav>div a.nav-item.nav-link.active {
     border: none;
     padding: 18px 25px;
     color: #fff;
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: 1.3rem;
+    font-weight: 600;
     background: #2FA27D;
     border-radius: 0;
 }

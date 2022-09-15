@@ -4,7 +4,7 @@ import './Security.css'
 const CorporateSolutions = () => {
     return (
         <div id="security">
-            <div id="myCarousel" className="carousel slide carousel-fade " data-ride="carousel">
+            <div id="myCarousel" className="carousel slide carousel-fade px-5" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <div className="mask flex-center">

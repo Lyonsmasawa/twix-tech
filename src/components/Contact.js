@@ -4,10 +4,7 @@ import './Contact.css'
 const Contact = () => {
   return (
       <div className="contact__us">
-          <div className="backside" style={{zIndex: "100"}}>
-              
-          </div>
-          <section class="contact_us" style={{zIndex: "101"}}>
+          <section class="contact_us">
               <div class="container">
                   <div class="row">
                       <div class="col-md-10 offset-md-1">
@@ -16,8 +13,8 @@ const Contact = () => {
                                   <div class="col-md-10">
                                       <div class="contact_form_inner">
                                           <div class="contact_field">
-                                              <h3>Contact Us</h3>
-                                              <p>Feel Free to contact us any time. We will get back to you as soon as we can!.</p>
+                                              <h4 style={{color: '#2EA27D'}}>Contact Us</h4>
+                                              <h6 style={{color: "#2EA27D"}}>Feel Free to contact us any time. We will get back to you as soon as we can!.</h6>
                                               <input type="text" class="form-control form-group" placeholder="Name" />
                                               <input type="text" class="form-control form-group" placeholder="Email" />
                                               <textarea class="form-control form-group" placeholder="Message"></textarea>

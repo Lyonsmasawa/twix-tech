@@ -117,7 +117,7 @@ const Wrap = styled.div`
   return (
     <div className="clients">
         <div className="clients_bg">
-        <h1 style={{marginTop: "2rem", color: "#2FA27D", textAlign: "center", fontWeight: "700"}}><Rotate><GamepadIcon /></Rotate>Our Clients<Rotate><GamepadIcon /></Rotate></h1>
+        <h1 className="trustedby" style={{marginBottom: "1rem",marginTop: "1rem", paddingTop: "2rem", color: "#2FA27D", textAlign: "center", fontWeight: "700"}}><span><Rotate><GamepadIcon /></Rotate>Our Clients<Rotate><GamepadIcon /></Rotate></span></h1>
         <br />
         <Carousel {...settings}>
             <Wrap>
@@ -198,7 +198,6 @@ const Wrap = styled.div`
                 </a>
             </Wrap>
         </Carousel>
-        <hr style={{color: "#2FA27D", height: ".51rem", opacity: "0.15"}}/>
         </div>
     </div>
   )

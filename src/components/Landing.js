@@ -11,7 +11,7 @@ const Landing = () => {
             <div className="whatWeDo">
             <img src={logo} alt="Twix Technologies" />
             <h1>Twixt Technologies Limited</h1>
-               <p style={{ padding: "10px"}}>
+               <p style={{ padding: "10px"}} className="text-justify">
                     Twixt was founded as a web development startup during its incubation stages in 2009 and later incorporated as a
                     limited liability company in 2012 actively offering IT and Mobility solutions progressively serving consumers and
                     enterprises needs.

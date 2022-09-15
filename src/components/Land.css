@@ -3,6 +3,9 @@
     height: max-content;
     margin-bottom: 1rem;
 }
+.bg-full{
+    background-image: url('./hero-bg.png');
+}
 
 .fully .cont {
     flex: 1;
@@ -206,4 +209,64 @@
     font-family: FontAwesome;
     content: "\f110" !important;
     color: #2FA27D;
+}
+
+.whoweare{
+    background-image: url('./whoweare.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.trustedby{
+    background-image: url('./trustedby.png');
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.saass{
+    background-image: url('./saass.png');
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.paygo {
+    background-image: url('./paygo.png');
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.affirm {
+    background-image: url('./affirmation.png');
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

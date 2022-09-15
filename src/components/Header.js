@@ -15,13 +15,14 @@ const Nav = styled.nav`
     justify-content: space-between;
     width: 100%;
     align-items: center;
-    height: 70px;
+    height: 125px;
     top: 0;
     left: 0;
     right: 0;
     padding: 8px 36px;
     letter-spacing: 16px;
     z-index: 1009;
+    margin-bottom: 1rem;
     box-shadow: 0px 2px 8px #2EA27E;
 `
 

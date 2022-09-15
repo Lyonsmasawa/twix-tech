@@ -1,5 +1,5 @@
 .right_conatct_social_icon{
-     background: #2fa27d;
+     background: #2EA27D;
 }
 
 .backside {
@@ -13,17 +13,18 @@
 
 .contact__us{
   display: flex;
-  background: url('./bg3.jpg');
+  background: url('./hero-bg.png');
   justify-content: space-evenly;
 }
 .contact_us {
   flex: 2;
+  padding: 2rem;
 }
 
 .contact_inner{
     background-color: #fff;
     position: relative;
-    box-shadow: 0px 4px 15px #2fa27d;
+    /* box-shadow: 0px 4px 15px#2EA27D; */
     border-radius: 25px;
 }
 .contact_field{
@@ -34,14 +35,14 @@
 }
 
 .contact_field h3{
-   color: #2fa27d;
+   color:#2EA27D;
     font-size: 40px;
     letter-spacing: 1px;
     font-weight: 600;
     margin-bottom: 10px
 }
 .contact_field p{
-    color: #2fa27d;
+    color:#2EA27D;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -55,7 +56,7 @@
 .contact_field .form-control:focus{
     box-shadow: none;
     outline: none;
-    border-bottom: 2px solid #2fa27d;
+    border-bottom: 2px solid#2EA27D;
 }
 .contact_field .form-control::placeholder{
     font-size: 13px;
@@ -64,9 +65,9 @@
 
 .contact_info_sec {
     position: absolute;
-    background-color: #2fa27d;
-    right: 10px;
-    font-size: 1.3rem !important;
+    background-color:#2EA27D;
+    right: 0px;
+    font-size: 1rem ;
     top: 18%;
     height: 340px;
     width: 290px;
@@ -88,7 +89,7 @@
 }
 
 button.contact_form_submit {
-    background: #2fa27d;
+    background:#2EA27D;
     border: none;
     color: #fff;
     padding: 10px 15px;
@@ -115,7 +116,7 @@ button.contact_form_submit {
     padding: 50px 0px;
 }
 .map_inner h4 {
-    color: #2fa27d;
+    color:#2EA27D;
     margin-top: 1rem;
     text-align: center;
     font-weight: bold;

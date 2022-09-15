@@ -22,3 +22,23 @@
   .square-holder:hover img{
     filter:none;
   }
+
+  .square-holders {
+    /* border: 1px solid #cecece; */
+    align-items: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:20px;
+    /* background-color:#f1f1f1; */
+    min-height:200px
+  }
+  
+  .square-holders img {
+    max-width:100%;
+    transition: all 0.3s;
+  }
+  
+  .square-holders:hover img{
+    filter: grayscale(100%);
+  }

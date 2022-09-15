@@ -10,7 +10,7 @@ const Footer = () => {
             
             <div className="containers" style={{width: "80%"}}>
                 <div className="row">
-                    <div className="col-sm-12 col-md-5">
+                    <div className="col-sm-12 col-md-8">
                         <h6 className=''>About</h6>
                         <p className="text-justify pe-5 pt-3">In a region where local, regional and multinational companies are coming to terms with the role of IT in accelerating
                             digital transformation in order to create competitive advantage, Twixt has positioned itself as an integrated ICT
@@ -22,15 +22,7 @@ const Footer = () => {
                         <img src="/images/logo1.png" alt="" style={{ opacity: ".4" }} />
                     </div>
 
-                    <div className="col-xs-6 col-md-3">
-                        <h6 className="text-uppercase font-weight-bold"><strong>Services</strong></h6>
-                        <div className="p-3">
-                            <li>one</li>
-                            <li>two</li>
-                        </div>
-                    </div>
-
-                    <div className="col-xs-6 col-md-3">
+                    <div className="col-xs-6 col-md-4">
                         <h6 className="text-uppercase font-weight-bold"><strong>Contact</strong></h6>
                         <div className="p-3">
                             <p><i className="fas fa-home mr-3"></i> Lotus Plaza, 1st Floor Chiromo Lane 15, Parklands-Nairobi</p>

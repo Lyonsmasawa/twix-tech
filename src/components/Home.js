@@ -38,15 +38,10 @@ const Home = (props) => {
     <Container>
         <Landing />
         <Land />
-        <hr style={{color: "#2FA27D", height: "1rem", opacity: "0.1"}}/>
         <Clients />
-        <hr style={{color: "#2FA27D", height: "1rem", opacity: "0.1"}}/>
         <Solutions/>
-        <hr style={{color: "#2FA27D", height: "1rem", opacity: "0.1"}}/>
         <Corporate />
-        <hr style={{color: "#2FA27D", height: "1rem", opacity: "0.1"}}/>
         <Partners />
-        <hr style={{color: "#2FA27D", height: "1rem", opacity: "0.1"}}/>
         <Contact />
         <Footer />
     </Container>

@@ -28,11 +28,11 @@ const Partners = () => {
     `;
 
     return (
-        <div className="partner">
+        <div className="partner" style={{paddingTop: "2rem"}}>
             <div className="container">
-                <h1 style={{padding: "2rem", color: "#2FA27D", textAlign: "center", fontWeight: "700"}}>
+                <h1 className='affirm' style={{marginBottom: "3rem",paddingTop: "3rem", color: "#2FA27D", textAlign: "center", fontWeight: "700"}}><span>
             <Rotate><GamepadIcon /></Rotate>Our Partners 
-            <Rotate><GamepadIcon /></Rotate></h1>
+            <Rotate><GamepadIcon /></Rotate></span></h1>
                 <strong>
                     <div className="row" style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
                         <div className="col-sm-6 col-md-4 col-lg-4">

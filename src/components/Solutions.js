@@ -3,12 +3,12 @@ import './Solutions.css'
 import styled from 'styled-components'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Sol from './Sol';
 import Security from './Security';
-import { DashboardTwoTone, DateRange, SecuritySharp } from '@material-ui/icons';
+import { ControlPoint, DashboardTwoTone, DateRange, HomeTwoTone, SecuritySharp, StorageTwoTone } from '@material-ui/icons';
 import CorporateSolutions from './CorporateSolutions';
 import GamepadIcon from '@material-ui/icons/Gamepad';
 import { keyframes } from "styled-components";
+import Office from './Office';
 
 const Solutions = () => {
   const Solution = styled.div`
@@ -41,8 +41,8 @@ const Solutions = () => {
     `;
 
   return (
-    <>
-      <h2 style={{marginTop: "1rem",marginBottom: "1rem", color: "#2FA27D", textAlign: "center", fontWeight: "600"}}><Rotate><GamepadIcon /></Rotate>SOLUTIONS<Rotate><GamepadIcon /></Rotate></h2>
+    <div id="oursolutions" className="bg-full" style={{paddingTop: "1rem", paddingBottom: "1rem"}}>
+      <h1 className="saass" style={{marginBottom: "3rem",marginTop: "1rem", paddingTop: "3rem", color: "#2FA27D", textAlign: "center", fontWeight: "600"}}><span><Rotate><GamepadIcon /></Rotate>SOLUTIONS<Rotate><GamepadIcon /></Rotate></span></h1>
       <Solution>
         <div className="containers">
           <div className="row">
@@ -56,45 +56,48 @@ const Solutions = () => {
               </nav>
               <div className="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
                 <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                  <section id="what-we-do">
+                <section id="what-we-do">
                     <div class="container-fluid">
-                      <h2 class="section-title mb-2 h2" style={{ fontWeight: "bold" }}>Office Solutions we Offer</h2>
-                      <p class="text-center text-muted h5">Coupled with our International ICT trade experience together with our strategic relationships with regional ICT
+                      <h1 class="section-title mb-2 h1" style={{ fontWeight: "bold" }}> Office Solutions We Offer</h1>
+                      <h2 class="text-muted h6 p-2">Coupled with our International ICT trade experience together with our strategic relationships with regional ICT
                         Distributors, Twixt is able to service both small and large volume of IT Hardware supplies needs at retail and
-                        wholesale commercial models. We supply and install ICT the below categories;</p>
-                      <div class="row mt-5">
+                        wholesale commercial models. We supply and install ICT the below categories.</h2>
+                      <div class="row mt-3">
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
-                          <div class="card  h-100">
-                            <div class="card-block block-2">
+                          <div class="card ">
+                            <div class="card-block block-5">
                               <h3 class="card-title">Work & Office Tools:</h3>
                               <p class="card-text">Mobile Devices, Tablets, Laptops, Desktops, Professional Display Screens, Audio-Video
-                                Conferencing, Printers and Accessories (Flash Drives, Web Cams, Head Phones, Laptop Bags etc).</p>
-                              <a href="#" title="Read more" class="read-more" >See Illustrations Below<i class="fa fa-angle-double-right ml-2"></i></a>
+                                Conferencing, Printers and Accessories (Flash Drives, Web Cams, Head Phones, Laptop Bags etc).
+                              </p>
+                              <a href="#" title="Read more" class="read-more" >See Products Brands Below<i class="fa fa-angle-double-right ml-2"></i></a>
                             </div>
                           </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
                           <div class="card h-100">
-                            <div class="card-block block-2">
+                            <div class="card-block block-5">
                               <h3 class="card-title">Office Automation:</h3>
-                              <p class="card-text">Microsoft Software Licenses, LAN, CCTV, BioMetric, Hard Disks Drives, Servers.</p>
-                              <a href="#" title="Read more" class="read-more" >See Illustrations Below<i class="fa fa-angle-double-right ml-2"></i></a>
+                              <p class="card-text">Microsoft Software Licenses, LAN, CCTV, BioMetric, Hard Disks Drives, Servers,</p>
+                            </div>
+                            <div class="card-block block-5">
+                              <h3 class="card-title">Office Appliances:</h3>
+                              <p class="card-text">TV, Sound Systems, Microwaves, Fridges and Water Dispensers</p>
+                              <a href="#" title="Read more" class="read-more" >See Product Brands Below<i class="fa fa-angle-double-right ml-2"></i></a>
                             </div>
                           </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
-                          <div class="card h-100">
-                            <div class="card-block block-2">
-                              <h3 class="card-title">Office Appliances: </h3>
-                              <p class="card-text">TV, Sound Systems, Microwaves, Fridges and Water Dispensers.</p>
-                              <a href="#" title="Read more" class="read-more" >See Illustrations Below<i class="fa fa-angle-double-right ml-2"></i></a>
+                          <div class="card ">
+                            <div class="card-block " style={{ display: "flex", alignItems: "center", padding: "0px" }}>
+                              <img src="./images/dete.jpg" className="mx-auto" alt="slide" style={{ width: "100%", height: "100%", padding: "4px", border: "5px solid #2fa27d", opacity: ".8" }} />
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                   </section>
-                   <Sol />
+                    <Office />
+                  </section>
                 </div>
                 <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                   <section id="what-we-do">
@@ -127,7 +130,7 @@ const Solutions = () => {
                           </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
-                          <div class="card h-100">
+                          <div class="card">
                             <div class="card-block " style={{ display: "flex", alignItems: "center", padding: "0px" }}>
                               <SecuritySharp /><span style={{ fontWeight: "bold" }}>Safe</span>
                               <img src="./images/secure.png" className="mx-auto" alt="slide" style={{ width: "60%", height: "100%", padding: "4px", border: "5px solid #2fa27d" }} /> <span style={{ fontWeight: "bold" }}>Secure</span>
@@ -142,7 +145,7 @@ const Solutions = () => {
                 </div>
 
                 <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" style={{width: "100vw"}}>
-                  <section id="what-we-do" >
+                  <section id="what-we-do" className='' >
                     <div class="containers">
                       <h2 class="section-title mb-2 h1" style={{ fontWeight: "bold" }}> Corporate Solutions We Offer</h2>
                       <p class="text-center text-muted h3">Data Analytics-Visualization & Business Intelligence Solutions.</p>
@@ -158,7 +161,7 @@ const Solutions = () => {
           </div>
         </div>
       </Solution >
-    </>
+    </div>
   )
 }
 

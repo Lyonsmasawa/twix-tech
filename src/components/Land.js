@@ -66,9 +66,8 @@ const Land = () => {
         `
 
   return (
-     <>
-        <h2 style={{marginTop: "3rem", color: "#2FA27D", textAlign: "center", fontWeight: "600"}}><Rotate><GamepadIcon /></Rotate>ABOUT US<Rotate><GamepadIcon /></Rotate></h2>
-        <hr style={{color: "#2FA27D", height: ".51rem", opacity: "0.1"}}/>
+     <div className='bg-full' style={{paddingTop: "2rem", paddingBottom: "2rem"}}>
+        <h1 className = "whoweare" style={{ paddingTop: "3rem", color: "#2FA27D", textAlign: "center", fontWeight: "700"}}><span><Rotate><GamepadIcon /></Rotate>ABOUT US<Rotate><GamepadIcon /></Rotate></span></h1>
         <Information>
             <div className="row fully">
             <div className="cont">
@@ -115,8 +114,7 @@ const Land = () => {
                                         <li>Pushing the boundaries of Novelty.</li>
                                     </ul>
                             </div>
-                    <Info>
-                        <Information>
+                    <Information>
                             <div className="why">
                                 <h4 style={{color: "#2FA27D", fontWeight: "bold", fontSize:"20px"}}>Core Values</h4>
                                 <ul>
@@ -131,16 +129,11 @@ const Land = () => {
                                 </ul>
                                 <img src={logo} alt="Twix Technologies" style={{ opacity: ".7", width: "30%"}}/>
                             </div>
-                        </Information>
-                        
-                    </Info>
+                    </Information>
             </div>
         </div>   
-
-
         </Information>
-        <hr style={{color: "#2FA27D", height: ".51rem", opacity: "0.07"}}/>
-     </>
+     </div>
   )
 }
 
