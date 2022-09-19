@@ -56,18 +56,23 @@ a {
     opacity: 1;
     transform: rotate(0deg);
   }
+  
+  5% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
 
   20% {
     border-radius: 0px;
     transform: rotate(45deg);
   }
 
-  30% {
+  40% {
     border-radius: 0px;
     transform: rotate(45deg);
   }
 
-  70% {
+  50% {
     border-radius: 50%;
     transform: rotate(180deg);
   }
