@@ -72,7 +72,7 @@ const Land = () => {
             <div className="row fully">
             <div className="cont">
 
-                <div className="pic"></div>
+                <div className="pic blink"></div>
 
                 <div className="box1"></div>
                 <div className="box2"></div>

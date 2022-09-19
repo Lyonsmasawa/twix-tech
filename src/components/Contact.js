@@ -11,7 +11,6 @@ const Contact = () => {
                     <div class="contact_inner">
                         <div class="contact-row">
                             <div class="column1">
-                                <div class="contact_form_inner">
                                     <div class="contact_field">
                                         <h4 style={{ color: '#2FA27D' }}>Contact Us</h4>
                                         <h6 style={{ color: "#2FA27D" }}>Feel Free to contact us any time. We will get back to you as soon as we can!.</h6>
@@ -20,7 +19,6 @@ const Contact = () => {
                                         <textarea class="form-control form-group" placeholder="Message"></textarea>
                                         <button class="contact_form_submit">Send</button>
                                     </div>
-                                </div>
                             </div>
                             <div class="column2">
                                 <div class="right_conatct_social_icon d-flex align-items-end">
@@ -30,24 +28,25 @@ const Contact = () => {
                                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                     </div>
                                 </div>
+                                 <div class="contact_info_sec">
+                                <h4>Contact Info</h4>
+                                <div class="d-flex info_single align-items-center">
+                                    <i class="fas fa-headset"></i>
+                                    <span> + 254 720 044 957</span>
+                                </div>
+                                <div class="d-flex info_single align-items-center">
+                                    <i class="fas fa-envelope-open-text"></i>
+                                    <span> Info @twixt.co.ke</span>
+                                </div>
+                                <div class="d-flex info_single align-items-center">
+                                    <i class="fas fa-map-marked-alt"></i>
+                                    <span>Lotus Plaza, Nairobi</span>
+                                </div>
                             </div>
-                            <div class="contact_info_sec">
-                            <h4>Contact Info</h4>
-                            <div class="d-flex info_single align-items-center">
-                                <i class="fas fa-headset"></i>
-                                <span> + 254 720 044 957</span>
                             </div>
-                            <div class="d-flex info_single align-items-center">
-                                <i class="fas fa-envelope-open-text"></i>
-                                <span> Info @twixt.co.ke</span>
-                            </div>
-                            <div class="d-flex info_single align-items-center">
-                                <i class="fas fa-map-marked-alt"></i>
-                                <span>Lotus Plaza, Nairobi</span>
-                            </div>
+                           
                         </div>
-                        </div>
-                       
+
                     </div>
                 </div>
             </section>

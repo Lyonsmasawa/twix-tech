@@ -46,11 +46,43 @@ a {
 .line {
   display: inline-block;
 }
+
+.blink {
+  animation: blink 18s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+
+  20% {
+    border-radius: 0px;
+    transform: rotate(45deg);
+  }
+
+  30% {
+    border-radius: 0px;
+    transform: rotate(45deg);
+  }
+
+  70% {
+    border-radius: 50%;
+    transform: rotate(180deg);
+  }
+
+
+  100% {
+    opacity: 1;
+    transform: rotate(360deg);
+  }
+}
+
 @media only screen and (min-width: 768px) {
   body {
     font-size: 16px;
-  }
-  
+  }  
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
