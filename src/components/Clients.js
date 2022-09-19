@@ -115,9 +115,9 @@ const Wrap = styled.div`
 `
 
   return (
-    <div className="clients">
+    <div id="clients" className="clients">
         <div className="clients_bg">
-        <h1 className="trustedby" style={{marginBottom: "1rem",marginTop: "1rem", paddingTop: "2rem", color: "#2FA27D", textAlign: "center", fontWeight: "700"}}><span><Rotate><GamepadIcon /></Rotate>Our Clients<Rotate><GamepadIcon /></Rotate></span></h1>
+        <h1 className="trustedby" style={{ paddingTop: "1rem", color: "#2FA27D", textAlign: "center", fontWeight: "700"}}><span>Our Clients</span></h1>
         <br />
         <Carousel {...settings}>
             <Wrap>

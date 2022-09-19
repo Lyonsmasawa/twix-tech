@@ -34,7 +34,7 @@
     position: absolute;
     width: 450px;
     height: 450px;
-    background: url('./fe.jpg') left center;
+    background: url('./aboutus.jpg') left center;
     -ms-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
@@ -210,12 +210,13 @@
     content: "\f110" !important;
     color: #2FA27D;
 }
-
+/* 
 .whoweare{
     background-image: url('./whoweare.png');
-    background-size: 700px;
+    background-size: 800px;
+    opacity: 1;
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center center;
     height: 50px;
     display: flex;
     flex-direction: column;
@@ -269,4 +270,4 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+} */

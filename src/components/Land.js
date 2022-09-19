@@ -36,7 +36,7 @@ const Land = () => {
         `;
 
         const Information = styled.div`
-            margin-top: 2rem;
+            margin-top: 1rem;
             gap: 1rem;
             margin-right: 1.4rem;
             color: black;
@@ -66,8 +66,8 @@ const Land = () => {
         `
 
   return (
-     <div className='bg-full' style={{paddingTop: "2rem", paddingBottom: "2rem"}}>
-        <h1 className = "whoweare" style={{ paddingTop: "3rem", color: "#2FA27D", textAlign: "center", fontWeight: "700"}}><span><Rotate><GamepadIcon /></Rotate>ABOUT US<Rotate><GamepadIcon /></Rotate></span></h1>
+     <div id="aboutus" className='bg-full' style={{paddingTop: "2rem", paddingBottom: "rem"}}>
+        <h1 className = "whoweare" style={{ color: "#2FA27D", textAlign: "center", fontWeight: "700"}}><span>ABOUT US</span></h1>
         <Information>
             <div className="row fully">
             <div className="cont">
@@ -90,7 +90,7 @@ const Land = () => {
                 <br />
                             
                     <Information>
-                            <div className="why">
+                            <div className="why shadows p-3">
                                     <h4 style={{color: "#2FA27D", fontWeight: "bold", fontSize:"20px"}}>Mission</h4>
                                     <ul>
                                         <li>To consistently create and provide disruptive
@@ -99,7 +99,7 @@ const Land = () => {
                                         </li>
                                     </ul>
                             </div>
-                            <div className="why">
+                            <div className="why shadows p-3">
                                     <h4 style={{color: "#2FA27D", fontWeight: "bold", fontSize:"20px"}}>Vision</h4>
                                     <ul>
                                         <li>To integrate technology with people to do more
@@ -108,14 +108,14 @@ const Land = () => {
                             </div>
                     </Information>
                     <br />
-                    <div className="why">
+                    <div className="why shadows p-3">
                                     <h4 style={{color: "#2FA27D", fontWeight: "bold", fontSize:"20px"}}>Philosophy</h4>
                                     <ul>
                                         <li>Pushing the boundaries of Novelty.</li>
                                     </ul>
                             </div>
                     <Information>
-                            <div className="why">
+                            <div className="why shadows p-3 core-v">
                                 <h4 style={{color: "#2FA27D", fontWeight: "bold", fontSize:"20px"}}>Core Values</h4>
                                 <ul>
                                     <li><strong>Creativity: </strong> We solve problems and challenges by use of broad-sight thinking, foresight in innovating solutions

@@ -42,7 +42,7 @@ const Solutions = () => {
 
   return (
     <div id="oursolutions" className="bg-full" style={{paddingTop: "1rem", paddingBottom: "1rem"}}>
-      <h1 className="saass" style={{marginBottom: "3rem",marginTop: "1rem", paddingTop: "3rem", color: "#2FA27D", textAlign: "center", fontWeight: "600"}}><span><Rotate><GamepadIcon /></Rotate>SOLUTIONS<Rotate><GamepadIcon /></Rotate></span></h1>
+      <h1 className="saass" style={{marginBottom: "1rem", marginTop: "2rem", color: "#2FA27D", textAlign: "center", fontWeight: "600"}}><span>SOLUTIONS</span></h1>
       <Solution>
         <div className="containers">
           <div className="row">
@@ -58,8 +58,8 @@ const Solutions = () => {
                 <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                 <section id="what-we-do">
                     <div class="container-fluid">
-                      <h1 class="section-title mb-2 h1" style={{ fontWeight: "bold" }}> Office Solutions We Offer</h1>
-                      <h2 class="text-muted h6 p-2">Coupled with our International ICT trade experience together with our strategic relationships with regional ICT
+                      <h1 class="text-center mb-2 h1" style={{ fontWeight: "bold" }}> Office Solutions We Offer</h1>
+                      <h2 class="h6 p-2">Coupled with our International ICT trade experience together with our strategic relationships with regional ICT
                         Distributors, Twixt is able to service both small and large volume of IT Hardware supplies needs at retail and
                         wholesale commercial models. We supply and install ICT the below categories.</h2>
                       <div class="row mt-3">
@@ -102,7 +102,7 @@ const Solutions = () => {
                 <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                   <section id="what-we-do">
                     <div class="container-fluid">
-                      <h2 class="section-title mb-2 h1" style={{ fontWeight: "bold" }}> Security Solutions We Offer</h2>
+                      <h2 class="text-center mb-2 h1" style={{ fontWeight: "bold" }}> Security Solutions We Offer</h2>
                       <p class="text-center text-muted h6">We offer end user (Mobile, Laptop & Applications) and server side hardware based
                         authentication solution that eliminates account takeovers through the use of Public
                         Key Cryptography.</p>
@@ -133,7 +133,7 @@ const Solutions = () => {
                           <div class="card">
                             <div class="card-block " style={{ display: "flex", alignItems: "center", padding: "0px" }}>
                               <SecuritySharp /><span style={{ fontWeight: "bold" }}>Safe</span>
-                              <img src="./images/secure.png" className="mx-auto" alt="slide" style={{ width: "60%", height: "100%", padding: "4px", border: "5px solid #2fa27d" }} /> <span style={{ fontWeight: "bold" }}>Secure</span>
+                              <img src="./images/Solutions.jpg" className="mx-auto" alt="slide" style={{ width: "60%", height: "100%", padding: "4px", border: "5px solid #2fa27d" }} /> <span style={{ fontWeight: "bold" }}>Secure</span>
                               <SecuritySharp />
                             </div>
                           </div>
@@ -147,7 +147,7 @@ const Solutions = () => {
                 <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" style={{width: "100vw"}}>
                   <section id="what-we-do" className='' >
                     <div class="containers">
-                      <h2 class="section-title mb-2 h1" style={{ fontWeight: "bold" }}> Corporate Solutions We Offer</h2>
+                      <h2 class="text-center mb-2 h1" style={{ fontWeight: "bold" }}> Corporate Solutions We Offer</h2>
                       <p class="text-center text-muted h3">Data Analytics-Visualization & Business Intelligence Solutions.</p>
                       </div>
                     <CorporateSolutions />

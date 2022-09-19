@@ -16,7 +16,7 @@ const Office = () => {
                                             <img alt="" src="./images/logos/canon.jpg" />
                                         </div>
                                     </div>
-                                    <div className="col-sm-6 col-md-3 col-lg-3">
+                                    <div className="col-sm-6 col-md-3 col-lg-1">
                                         <div className="square-holders">
                                             <img alt="" src="./images/logos/dell.jpg" />
                                         </div>
@@ -66,7 +66,7 @@ const Office = () => {
                                             <img alt="" src="./images/logos/nok.jpg" />
                                         </div>
                                     </div>
-                                    <div className="col-sm-6 col-md-3 col-lg-3">
+                                    <div className="col-sm-6 col-md-3 col-lg-1">
                                         <div className="square-holders">
                                             <img alt="" src="./images/logos/sam.jpg" />
                                         </div>
@@ -117,7 +117,7 @@ const Office = () => {
                                             <img alt="" src="./images/logos/eps.jpg" />
                                         </div>
                                     </div>
-                                    <div className="col-sm-6 col-md-3 col-lg-3">
+                                    <div className="col-sm-6 col-md-3 col-lg-1">
                                         <div className="square-holders">
                                             <img alt="" src="./images/logos/dell.jpg" />
                                         </div>
@@ -137,7 +137,7 @@ const Office = () => {
                                             <img alt="" src="./images/logos/logi.jpg" />
                                         </div>
                                     </div>
-                                    <div className="col-sm-6 col-md-3 col-lg-3">
+                                    <div className="col-sm-6 col-md-3 col-lg-1">
                                         <div className="square-holders">
                                             <img alt="" src="./images/logos/mi.jpg" />
                                         </div>
@@ -152,7 +152,7 @@ const Office = () => {
                                             <img alt="" src="./images/logos/nok.jpg" />
                                         </div>
                                     </div>
-                                    <div className="col-sm-6 col-md-3 col-lg-3">
+                                    <div className="col-sm-6 col-md-3 col-lg-1">
                                         <div className="square-holders">
                                             <img alt="" src="./images/logos/sam.jpg" />
                                         </div>
@@ -208,7 +208,7 @@ const Office = () => {
                                             <img alt="" src="./images/logos/logi.jpg" />
                                         </div>
                                     </div>
-                                    <div className="col-sm-6 col-md-3 col-lg-3">
+                                    <div className="col-sm-6 col-md-3 col-lg-1">
                                         <div className="square-holders">
                                             <img alt="" src="./images/logos/eps.jpg" />
                                         </div>
@@ -218,7 +218,7 @@ const Office = () => {
                                             <img alt="" src="./images/logos/nok.jpg" />
                                         </div>
                                     </div>
-                                    <div className="col-sm-6 col-md-3 col-lg-3">
+                                    <div className="col-sm-6 col-md-3 col-lg-1">
                                         <div className="square-holders">
                                             <img alt="" src="./images/logos/dell.jpg" />
                                         </div>
@@ -234,12 +234,12 @@ const Office = () => {
                                             <img alt="" src="./images/logos/his.jpg" />
                                         </div>
                                     </div>
-                                    <div className="col-sm-6 col-md-3 col-lg-3">
+                                    <div className="col-sm-6 col-md-3 col-lg-1">
                                         <div className="square-holders">
                                             <img alt="" src="./images/logos/sam.jpg" />
                                         </div>
                                     </div>
-                                    <div className="col-sm-6 col-md-3 col-lg-3">
+                                    <div className="col-sm-6 col-md-3 col-lg-1">
                                         <div className="square-holders">
                                             <img alt="" src="./images/logos/mi.jpg" />
                                         </div>

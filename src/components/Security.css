@@ -12,7 +12,7 @@
 
 #security #myCarousel {
   position: relative;  
-  background: url('./bgstroke.jpg');
+  background: url('./hero-bg.png');
   z-index: 1;
   margin-top: 1rem;
   box-shadow: 0 0px 5px rgba(0, 0, 0, 0.151);
@@ -66,7 +66,7 @@
 #myCarousel a,
 #myCarousel .carousel-item .mask img {
   -webkit-animation-duration: 1s;
-  animation-duration: 1.2s;
+  animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -89,6 +89,7 @@
   bottom: 50%;
   transform: translateY(-50%);
   background-color: #2FA27D;
+  display: none;
 }
 
 

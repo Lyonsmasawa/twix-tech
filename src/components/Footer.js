@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-sm-12 col-md-8">
                         <h6 className=''>About</h6>
-                        <p className="text-justify pe-5 pt-3">In a region where local, regional and multinational companies are coming to terms with the role of IT in accelerating
+                        <p className="text-justify pe-5 " style={{fontWeight: "normal"}}>In a region where local, regional and multinational companies are coming to terms with the role of IT in accelerating
                             digital transformation in order to create competitive advantage, Twixt has positioned itself as an integrated ICT
                             solution enabler to organization's meeting their business objectives.
                             Twixt Products and Solution Portfolio thematically covers specific domains: Office, Security, Corporate and Managed

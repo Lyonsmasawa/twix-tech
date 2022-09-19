@@ -5,7 +5,7 @@ const Map = () => {
     <section class="map_sec" style={{ padding: "0"}}>
         <div class="containers">
             <div class="row">
-                <div class="col-md-12 ">
+                <div class="col-md-12" >
                     <div class="map_inner">
                         <h4>Find Us on Google Map</h4>
                         <p></p>

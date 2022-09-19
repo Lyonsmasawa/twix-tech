@@ -1,10 +1,10 @@
 .image {
-    background-image: url("qwa.jpg");
+    background-image: url("backg.png");
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: center center; */
     text-align: center;
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -12,8 +12,8 @@
 }
 
 .overlay {
-    background-color: #036e4c9f;
-    height: 80vh;
+    background-color: #0000009a;
+    height: 70vh;
     width: 100%;
     display: flex;
     justify-content: center;

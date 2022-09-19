@@ -27,11 +27,8 @@ const Corporate = () => {
         `;
   return (
       <div id="corporate">
-          <h2 className='paygo' style={{ marginBottom: "3rem",marginTop: "1rem", paddingTop: "3rem", color: "#2FA27D", textAlign: "center", fontWeight: "600" }}><span><Rotate><GamepadIcon /></Rotate>MANAGED SERVICES<Rotate><GamepadIcon /></Rotate></span></h2>
-          <h3 style={{ color: "#2fa27d", fontWeight: "bold", }}>Network | Security | Lifecycle Management | As-a-Service</h3>
-          <h5 className='text-justify text-muted h5' style={{ color: "black", textAlign: "justify", padding: "1px 40px"}}>Through Twixt’s partnership with “JSNMEA” and “Aryaka Networks”, we offer enterprises that have multiple offices
-              with complex centralized and cloud-native applications and services unrivaled application performance, cost
-              optimization and business continuity solution through Aryaka’s Smart Services best-in class fully Integrated service.</h5>
+          <h2 className='paygo' style={{paddingTop: "1rem", color: "#2FA27D", textAlign: "center", fontWeight: "600" }}><span>MANAGED SERVICES</span></h2>
+          <h5 style={{ color: "#2fa27d" }}>Network | Security | Lifecycle Management | As-a-Service</h5>
           <div id="myCarousel" className="carousel slide carousel-fade" data-ride="carousel">
               <div className="carousel-inner">
                   <div className="carousel-item active">

@@ -5,8 +5,9 @@
 }
 
 #nav-tabContent .fade{
-    width: 80%;
+    width: 90%;
 }
+
 nav>.nav.nav-tabs {
     border: none;
     color: #fff;
@@ -22,7 +23,7 @@ nav>div a.nav-item.nav-link.active {
     padding: 18px 25px;
     color: #fff;
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight:500;
     background: #2FA27D;
     border-radius: 0;
 }
@@ -51,7 +52,7 @@ nav>div a.nav-item.nav-link:focus {
     background: white;
     color: #2FA27D;
     border-radius: 0;
-    transition: background 0.20s linear;
+    transition: 0.20s linear;
 }
 
 section{
@@ -100,7 +101,8 @@ section .section-title{
 #what-we-do .card .card-block:before{
 	font-family: FontAwesome;
     position: absolute;
-    font-size: 39px;
+    font-size: 25px;
+    padding-top: 5px;
     color: #007b5e;
     left: 0;
 	-webkit-transition: -webkit-transform .2s ease-in-out;
