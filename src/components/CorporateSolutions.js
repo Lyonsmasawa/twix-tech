@@ -10,7 +10,7 @@ const CorporateSolutions = () => {
                         <div className="mask flex-center">
                             <div className="container">
                                 <div className="row align-items-center">
-                                    <div className="col-md-4 col-12 order-md-1 order-2">
+                                    <div className="col-md-4 col-12 order-md-1 order-2 one">
                                         <br />
                                         <h1>Data Visualization</h1>
                                         <h5>We empower you organization to making improved managerial
@@ -21,7 +21,7 @@ const CorporateSolutions = () => {
                                         <div>
                                         </div>
                                     </div>
-                                    <div className="col-md-2 col-12 order-md-2 order-1">
+                                    <div className="col-md-2 col-12 order-md-2 order-1" one>
                                         <br />
                                         <br />
                                         <img src="./images/ill2.jpg" className="mt-5" alt="slide" />
@@ -29,7 +29,7 @@ const CorporateSolutions = () => {
                                         <br />
                                         <h6 style={{fontWeight: "bold"}}> Detail Analysis</h6>
                                     </div>
-                                    <div className="col-md-6 col-12 order-md-2 order-1">
+                                    <div className="col-md-6 col-12 order-md-2 order-1" one>
                                         <br />
                                         <img src="./images/data.jpg" className="mt-5" alt="slide"  />
                     

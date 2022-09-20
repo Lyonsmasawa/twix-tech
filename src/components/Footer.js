@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-sm-12 col-md-8">
                         <h6 className=''>About</h6>
-                        <p className="text-justify pe-5 " style={{fontWeight: "normal"}}>In a region where local, regional and multinational companies are coming to terms with the role of IT in accelerating
+                        <p className="text-left" style={{fontWeight: "normal"}}>In a region where local, regional and multinational companies are coming to terms with the role of IT in accelerating
                             digital transformation in order to create competitive advantage, Twixt has positioned itself as an integrated ICT
                             solution enabler to organization's meeting their business objectives.
                             Twixt Products and Solution Portfolio thematically covers specific domains: Office, Security, Corporate and Managed
@@ -28,7 +28,6 @@ const Footer = () => {
                             <p><i className="fas fa-home mr-3"></i> Lotus Plaza, 1st Floor Chiromo Lane 15, Parklands-Nairobi</p>
                             <p><i className="fas fa-envelope mr-3"></i> Info@twixt.co.ke</p>
                             <p><i className="fas fa-phone mr-3"></i> + 254 113 139 254</p>
-                            <p><i className="fas fa-print mr-3"></i> + 254 720 044 957</p>
                         </div>
                     </div>
                 </div>

@@ -94,16 +94,66 @@ a {
   body {
     font-size: 15px;
   }
-  .contact_info_sec {
+}
+
+@media only screen and (max-width: 920px) { 
+  .cont {
     display: none !important;
+  }
+  .divs{
+    display: none !important;
+  }
+  .contact_info_sec, .column2 {
+    display: none !important;
+  }
+  .containus {
+    background-color: #000000 !important;
+    padding: 0px !important;
+    width: max-content !important;
+    margin: 0px !important;
+  }
+ .contact_field {
+    padding: 20px !important;
+    margin: 0px !important;
+    width: 99vw !important;
+  }
+  .two {
+    background-color: #ffffff !important;
+    justify-content: space-around !important;
+  }
+  .testx {
+    padding: 2% !important;
+    margin: 0% !important;
+    width: 40% !important;
   }
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 589px) {
   body {
     font-size: 14px;
   }
-  .contact_info_sec {
-    display: none;
+  .whatWeDo span{
+    display: none !important;
+  }
+  .whatWeDo h3, .whatWeDo h5{
+    font-size: 18px !important;
+    text-align: left !important;
+    padding: 0% !important;
+    margin:1px 0px 12px 18px;
+    font-weight: 400 !important;
+  }
+  .whatWeDo img {
+    text-align: left !important;
+  }
+  .fully {
+    flex-wrap: wrap !important;
+    padding: 10px 0px 10px 15px !important;
+  }
+  .cont {
+    display: none !important;
+  }
+
+  .contact_field h6 {
+    font-size: 13px;
   }
 }

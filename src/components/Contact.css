@@ -15,7 +15,7 @@
 .contact__us{
   display: flex;
   background: url('./hero-bg.png');
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .contact_us {
   flex: 2;
@@ -154,6 +154,9 @@ button.contact_form_submit {
 .contact_us {
     display: flex;
     gap: 1rem;
+    align-items: space-between;
+    justify-content: center;
+ width: max-content;
 }
 
 .divs {
@@ -164,10 +167,13 @@ button.contact_form_submit {
     opacity: .9;
     background-position: center;
     border-radius: 12px;
+    
+ width: max-content;
 }
 
 .containus{
     flex: 2;
+ width: max-content;
 }
 .contact-row{
     position: relative;
@@ -177,9 +183,15 @@ button.contact_form_submit {
 }
 .column1{
     flex: 2;
+    
+ width: max-content;
 }
 .column2{
  width: max-content;
  position: relative;
  flex-wrap: wrap;
+}
+
+.contact_inner{
+    width: max-content;
 }

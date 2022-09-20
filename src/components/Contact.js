@@ -3,11 +3,10 @@ import './Contact.css'
 
 const Contact = () => {
     return (
-        <div className="contact__us ">
+        <div className="contact__us">
             <section class="contact_us">
                 <div className="divs">
                 </div>
-                <div class="containus">
                     <div class="contact_inner">
                         <div class="contact-row">
                             <div class="column1">
@@ -32,7 +31,7 @@ const Contact = () => {
                                 <h4>Contact Info</h4>
                                 <div class="d-flex info_single align-items-center">
                                     <i class="fas fa-headset"></i>
-                                    <span> + 254 720 044 957</span>
+                                    <span> + 254 113 139 254</span>
                                 </div>
                                 <div class="d-flex info_single align-items-center">
                                     <i class="fas fa-envelope-open-text"></i>
@@ -48,7 +47,6 @@ const Contact = () => {
                         </div>
 
                     </div>
-                </div>
             </section>
 
 
