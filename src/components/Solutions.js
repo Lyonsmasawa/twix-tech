@@ -42,7 +42,7 @@ const Solutions = () => {
 
   return (
     <div id="oursolutions" className="bg-full" style={{paddingTop: "1rem", paddingBottom: "1rem"}}>
-      <h1 className="saass" style={{marginBottom: "1rem", marginTop: "2rem", color: "#2FA27D", textAlign: "center", fontWeight: "600"}}><span>SOLUTIONS</span></h1>
+      <h1 className="saass text-3xl" style={{marginBottom: "1rem", marginTop: "2rem", color: "#2FA27D", textAlign: "center", fontWeight: "600"}}><span>SOLUTIONS</span></h1>
       <Solution>
         <div className="containers">
           <div className="row">
@@ -58,9 +58,8 @@ const Solutions = () => {
                 <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                 <section id="what-we-do">
                     <div class="container-fluid">
-                      <h1 class="text-center mb-2 h1" style={{ fontWeight: "bold" }}> Office Solutions We Offer</h1>
-                      <h2 class="h6 p-2">Coupled with our International ICT trade experience together with our strategic relationships with regional ICT
-                        Distributors, Twixt is able to service both small and large volume of IT Hardware supplies needs at retail and
+                      <h1 class="text-center mb-2 h2" style={{ fontWeight: "bold" }}> Office Solutions We Offer</h1>
+                      <h2 class="h6 p-2 text-justify">Coupled with our International ICT trade experience together with our strategic relationships with regional ICT Distributors, Twixt is able to service both small and large volume of IT Hardware supplies needs at retail and
                         wholesale commercial models. We supply and install ICT the below categories.</h2>
                       <div class="row mt-3">
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
@@ -147,7 +146,7 @@ const Solutions = () => {
                 <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" style={{width: "100vw"}}>
                   <section id="what-we-do" className='' >
                     <div class="containers">
-                      <h2 class="text-center mb-2 h1" style={{ fontWeight: "bold" }}> Corporate Solutions We Offer</h2>
+                      <h2 class="text-center mb-2 h2" style={{ fontWeight: "bold" }}> Corporate Solutions We Offer</h2>
                       <p class="text-center text-muted h3">Data Analytics-Visualization & Business Intelligence Solutions.</p>
                       </div>
                     <CorporateSolutions />

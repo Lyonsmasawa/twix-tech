@@ -26,9 +26,9 @@ const Corporate = () => {
         font-size: 2rem;
         `;
   return (
-      <div id="corporate">
-          <h2 className='paygo' style={{paddingTop: "1rem", color: "#2FA27D", textAlign: "center", fontWeight: "600" }}><span>MANAGED SERVICES</span></h2>
-          <h5 style={{ color: "#2fa27d" }}>Network | Security | Lifecycle Management | As-a-Service</h5>
+      <div id="managedservices">
+          <h2 className='paygo  text-3xl' style={{paddingTop: "1rem", color: "#2FA27D", textAlign: "center", fontWeight: "600" }}><span>MANAGED SERVICES</span></h2>
+          <h5 className=' text-1xl p-1' style={{ color: "#2fa27d" }}>Network | Security | Lifecycle Management | As-a-Service</h5>
           <div id="myCarousel" className="carousel slide carousel-fade" data-ride="carousel">
               <div className="carousel-inner">
                   <div className="carousel-item active">
@@ -36,7 +36,9 @@ const Corporate = () => {
                           <div className="container">
                               <div className="row align-items-center">
                                   <div className="col-md-5 col-12 order-md-1 order-2">
+                                    <br />
                                     <h1 style={{ fontWeight: "bold", fontSize: "2.3rem" }}>Aryaka Smart Services</h1>
+                                    <br />
                                     <h3>Consume Your Network As a Service</h3>
                                     </div>
                                   <div className="col-md-7 col-12 order-md-2 order-1"><img src="./images/ar.png" className="mt-5" alt="slide" /></div>
@@ -49,7 +51,7 @@ const Corporate = () => {
                           <div className="container">
                               <div className="row align-items-center">
                                   <div className="col-md-5 col-12 order-md-1 order-2 p-3">
-                                      <h1 style={{ fontWeight: "bold", fontSize: "2.3rem" }}>Managed Services</h1>
+                                      <h1 style={{ fontWeight: "bold", fontSize: "2.2rem" }}>Managed Services</h1>
                                       <p style={{textAlign: "justify"}}>Through Twixt’s partnership with “JSNMEA” and “Aryaka Networks”, we offer enterprises that have multiple offices
                                           with complex centralized and cloud-native applications and services unrivaled application performance, cost
                                           optimization and business continuity solution through Aryaka’s Smart Services best-in class fully Integrated service.</p>

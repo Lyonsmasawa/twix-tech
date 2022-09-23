@@ -34,6 +34,7 @@
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
+
   <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -58,6 +59,21 @@
 
   <title>Twix technologies</title>
   <link rel="shortcut icon" href="./logo512.png" type="image/x-icon">
+
+  <!--Tailwind CSS-->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style type="text/tailwindcss">
+    @layer components {
+    
+              .cardz {
+                @apply flex items-center justify-center flex-col gap-2 p-5 w-full sm:w-72 h-full bg-gray-100 border rounded-2xl !important
+              }
+    
+            }
+        </style>
+  <!--Tailwind CSS-->
+
 </head>
 
 <body>
@@ -75,7 +91,7 @@
     -->
   <script>
     $('#myCarousel').carousel({
-      interval: 3000,
+      interval: 2000,
     })
   </script>
 </body>

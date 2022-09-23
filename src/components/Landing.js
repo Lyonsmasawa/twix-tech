@@ -2,6 +2,7 @@ import React from 'react'
 import './Landing.css'
 import logo from './logo1.png'
 import logo1 from './logo3.png'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Landing = () => {
   return (

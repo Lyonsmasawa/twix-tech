@@ -116,7 +116,7 @@ const Header = () => {
             <a to="/"><img src={logo} alt="Twix Technologies" /></a>
         </Logo>
         <NavMenu>
-            <a href="/" style={MenuLinks}><HomeWorkOutlined style={MenuIcon} /><Span>Home</Span></a>
+            <a href="#" style={MenuLinks}><HomeWorkOutlined style={MenuIcon} /><Span>Home</Span></a>
             <a href="#aboutus" style={MenuLinks}><SupervisedUserCircleIcon style={MenuIcon} /><Span>About Us</Span></a>
             <a href="#ourclients" style={MenuLinks}><EventSeatIcon style={MenuIcon} /><Span>Our Clients</Span></a>
             <a href="#oursolutions" style={MenuLinks}><WorkOutline style={MenuIcon} /><Span>Our Solutions</Span></a>

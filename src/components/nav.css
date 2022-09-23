@@ -1,0 +1,48 @@
+
+:root {
+    --color-bg: #1f1f38;
+    --color-bg-variant: #2EA27D;
+    --color-primary: #2EA27D;
+    --color-primary-variant: #ffffff;
+    --color-white: white;
+    --color-light: white;
+}    
+navsmall {
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    padding: 0.5rem 1.5rem;
+    display: block;
+    z-index: 1002;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 1rem;
+    position: fixed;
+    display: flex;
+    gap: 0.6rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+navsmall a {
+    background: transparent;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: var(--color-light);
+    font-size: 1rem;
+    display: flex;
+}
+
+navsmall a:hover {
+    background: rgba(0, 0, 0, 0.3);
+    color: #2EA27D;
+}
+
+navsmall a.active {
+    background: #2EA27D;
+    color: white;
+}
+
+navsmall .icon {
+    color: white !important;
+    border-color: white !important;
+}

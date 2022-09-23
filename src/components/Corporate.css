@@ -64,7 +64,7 @@
   min-height: 550px;
 }
 
-#corporate #myCarousel {
+#managedservices #myCarousel {
   position: relative;
   z-index: 1;
   background: url('./bg3.jpg') center center no-repeat;

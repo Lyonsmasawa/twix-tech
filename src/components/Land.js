@@ -38,7 +38,7 @@ const Land = () => {
         const Information = styled.div`
             margin-top: 1rem;
             gap: 1rem;
-            margin-right: 1.4rem;
+            margin-right: 1rem;
             color: black;
             display: flex;
             text-align: left;
@@ -46,12 +46,12 @@ const Land = () => {
     
             ul {
             list-style-type: none;
-            padding-left: 20px;
+            padding-left: 2px;
             }
     
             li {
                 position: relative;
-                padding-left: 20px;
+                padding-left: 2px;
                 margin-bottom: 10px;
             }
     
@@ -66,7 +66,7 @@ const Land = () => {
         `
 
   return (
-     <div id="aboutus" className='bg-full' style={{paddingTop: "2rem", paddingBottom: "rem"}}>
+     <div id="aboutus" className='bg-full text-3xl' style={{paddingTop: "2rem", paddingBottom: "rem"}}>
         <h1 className = "whoweare" style={{ color: "#2FA27D", textAlign: "center", fontWeight: "700"}}><span>ABOUT US</span></h1>
         <Information>
             <div className="row fully">
@@ -91,9 +91,9 @@ const Land = () => {
                             
                     <Information>
                             <div className="why shadows p-3">
-                                    <h4 style={{color: "#2FA27D", fontWeight: "bold", fontSize:"20px"}}>Mission</h4>
+                                    <h style={{color: "#2FA27D", fontWeight: "bold", fontSize:"20px"}}>Mission</h>
                                     <ul>
-                                        <li>To consistently create and provide disruptive
+                                        <li className='pl-5'>To consistently create and provide disruptive
                                             technology-driven business solutions that will
                                             transform Enterprises.
                                         </li>
@@ -102,7 +102,7 @@ const Land = () => {
                             <div className="why shadows p-3">
                                     <h4 style={{color: "#2FA27D", fontWeight: "bold", fontSize:"20px"}}>Vision</h4>
                                     <ul>
-                                        <li>To integrate technology with people to do more
+                                        <li className='pl-5'>To integrate technology with people to do more
                                         </li>
                                     </ul>
                             </div>
@@ -111,20 +111,20 @@ const Land = () => {
                     <div className="why shadows p-3">
                                     <h4 style={{color: "#2FA27D", fontWeight: "bold", fontSize:"20px"}}>Philosophy</h4>
                                     <ul>
-                                        <li>Pushing the boundaries of Novelty.</li>
+                                        <li className='pl-5'>Pushing the boundaries of Novelty.</li>
                                     </ul>
                             </div>
                     <Information>
                             <div className="why shadows p-3 core-v">
                                 <h4 style={{color: "#2FA27D", fontWeight: "bold", fontSize:"20px"}}>Core Values</h4>
                                 <ul>
-                                    <li><strong>Creativity: </strong> We solve problems and challenges by use of broad-sight thinking, foresight in innovating solutions
+                                    <li className='pl-5'><strong>Creativity: </strong> We solve problems and challenges by use of broad-sight thinking, foresight in innovating solutions
                                     and leveraging on acquired skills.</li>
-                                    <li><strong>Integrity: </strong> We subscribe to the highest of standards not only in our work but also in our commitment to
+                                    <li className='pl-5'><strong>Integrity: </strong> We subscribe to the highest of standards not only in our work but also in our commitment to
                                     clients. We value professionalism and enforce a high code of conduct throughout the organization.</li>
-                                    <li><strong>People: </strong> We believe in the power of oneness; marshalling of skills, talents and resources towards a common
+                                    <li className='pl-5'><strong>People: </strong> We believe in the power of oneness; marshalling of skills, talents and resources towards a common
                             goal.</li>
-                                    <li><strong>Excellence: </strong>  Excellence to us is not an act but a habit. We go the extra mile to deliver and exceed client’s
+                                    <li className='pl-5'><strong>Excellence: </strong>  Excellence to us is not an act but a habit. We go the extra mile to deliver and exceed client’s
                             expectations. </li>
                                 </ul>
                                 <img src={logo} alt="Twix Technologies" style={{ opacity: ".7", width: "30%"}}/>

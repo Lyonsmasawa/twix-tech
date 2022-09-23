@@ -25,6 +25,9 @@ a {
 .para {
   color:#000000;
 }
+navsmall{
+  display: none !important;
+}
 .texts{
   position: absolute;
   left: 15%;
@@ -50,6 +53,22 @@ a {
 .blink {
   animation: blink 18s ease-in-out infinite;
 }
+
+.why li {
+  font-size: 1.1rem !important;
+}
+
+
+@keyframes blink2 {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: .8;
+  }
+}
+
 
 @keyframes blink {
   0% {
@@ -100,32 +119,56 @@ a {
   .cont {
     display: none !important;
   }
+
   .divs{
     display: none !important;
   }
+
   .contact_info_sec, .column2 {
     display: none !important;
   }
+
   .containus {
     background-color: #000000 !important;
     padding: 0px !important;
     width: max-content !important;
     margin: 0px !important;
   }
+
  .contact_field {
     padding: 20px !important;
     margin: 0px !important;
     width: 99vw !important;
   }
+
   .two {
     background-color: #ffffff !important;
     justify-content: space-around !important;
   }
+
   .testx {
     padding: 2% !important;
     margin: 0% !important;
     width: 40% !important;
   }
+
+  .content li {
+    font-size: 20px !important;
+    padding: 1px !important;
+  }
+
+  .content li:before {
+    display: none !important;
+  }
+
+  .block-5:before{
+    font-size: 14px !important;
+  }
+  .block-5{
+    margin: 0% !important;
+    padding: auto !important;
+  }
+  
 }
 
 @media only screen and (max-width: 589px) {
@@ -155,5 +198,29 @@ a {
 
   .contact_field h6 {
     font-size: 13px;
+  }
+  .content li {
+    font-size: 17px !important;
+    padding: 1px !important;
+  }
+  .content li:before {
+    display: none !important;
+  }
+  navsmall{
+    display: flex !important;
+  }
+  #nav-tab{
+    background-color: transparent !important;
+    border: none;
+  }
+  #nav-tab .nav-link {
+    box-shadow: 0px 0px 2px white !important;
+    animation: blink2 2000ms ease-in-out infinite;
+    margin-top: 5px;
+  }
+  
+  #nav-tab .active{
+    margin-bottom: 2rem;
+    animation: none;
   }
 }

@@ -68,7 +68,7 @@ section .section-title{
 	background:#ffffff;
 }
 #what-we-do .card{
-	padding: 1rem!important;
+	padding: 1rem !important;
 	border: none;
 	margin-bottom:1rem;
 	-webkit-transition: .5s all ease;

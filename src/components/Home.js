@@ -6,9 +6,11 @@ import Corporate from './Corporate'
 import Footer from './Footer'
 import Land from './Land'
 import Landing from './Landing'
+import Nav from './Nav'
 import Partners from './Partners'
 import Reviews from './Reviews'
 import Solutions from './Solutions'
+import Team from './Team'
 
 const Container = styled.main`
     position: relative;
@@ -36,12 +38,14 @@ const Home = (props) => {
 
   return (
     <Container>
+        <Nav />
         <Landing />
         <Land />
         <Clients />
         <Solutions/>
         <Corporate />
         <Partners />
+        <Team />
         <Contact />
         <Footer />
     </Container>

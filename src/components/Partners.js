@@ -28,11 +28,11 @@ const Partners = () => {
     `;
 
     return (
-        <div id="partnerships" className="partner" style={{paddingTop: "2rem"}}>
+        <div id="partnerships" className="partner text-3xl" style={{paddingTop: "2rem"}}>
             <div className="container">
-                <h1 className='affirm' style={{marginBottom: "3rem",paddingTop: "3rem", color: "#2FA27D", textAlign: "center", fontWeight: "700"}}><span>
+                <p className='affirms' style={{marginBottom: "0rem",paddingTop: "1rem", color: "#2FA27D", textAlign: "center", fontWeight: "700"}}>
           Our Partners 
-          </span></h1>
+        </p>
                 <strong>
                     <div className="row" style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
                         <div className="col-sm-6 col-md-4 col-lg-4">
